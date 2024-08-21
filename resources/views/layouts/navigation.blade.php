@@ -24,6 +24,12 @@
             @case('team_member')
             {{ __('Miembro del Equipo') }}
             @break
+            @case('stakeholder')
+            {{ __('Interesado')}}
+            @break
+            @case('cliente')
+            {{ __('Cliente')}}
+            @break
             @default
             {{ __('Usuario') }}
             @endswitch
