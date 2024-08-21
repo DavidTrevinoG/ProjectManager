@@ -1,0 +1,1 @@
+<img src="{{ asset('images/logo.webp') }}" alt="Application Logo" class="w-auto h-16">
